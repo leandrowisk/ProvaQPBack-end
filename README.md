@@ -49,6 +49,7 @@ O projeto está configurado para execução local, sem necessidade de instalar o
 6. Usuário fixo para login
    E-mail: admin@admin.com
    Senha: 12345
+   O token expirará a cada 3 segundos, funcionalidade de logout implementada.
 
 Acesso ao console do Banco H2:
 Acesse http://localhost:8090/h2-console.
