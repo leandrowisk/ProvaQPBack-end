@@ -28,7 +28,7 @@ public class JWTService {
                 .subject(email)
                 .issuedAt(new Date())
                 .expiration(new Date(
-                        System.currentTimeMillis() + 30000))
+                        System.currentTimeMillis() + 180000))
                 .signWith(key)
                 .compact();
     }
