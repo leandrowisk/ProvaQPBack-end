@@ -45,11 +45,10 @@ O projeto está configurado para execução local, sem necessidade de instalar o
 3. Aguarde o Maven baixar as dependências.
 4. Execute a classe principal do Spring Boot.
 5. A API estará disponível em http://localhost:8090.
-
 6. Usuário fixo para login
    E-mail: admin@admin.com
    Senha: 12345
-   O token expirará a cada 3 segundos, funcionalidade de logout implementada.
+   O token expirará a cada 3 minutos, funcionalidade de logout implementada.
 
 Acesso ao console do Banco H2:
 Acesse http://localhost:8090/h2-console.
